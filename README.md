@@ -11,7 +11,7 @@
 * El botón 'Limpiar'debe limpiar los campos del formulario.
 * El número de seguro social (ssn), es único, y no puede haber dos usuarios con el mismo ssn en la lista.
 * En caso de un intento de inserción erroneo, se debe informar dicho error al usuario.
-* Al pasar 2 minutos de inactividad, se deben refrescar los datos de la tabla la tabla automáticamente.
+* Al pasar 2 minutos de inactividad, se deben refrescar los datos de la tabla automáticamente.
 
 ## API
 El sitio debe comunicarse con la API de este repositorio. La misma está escrita en Node.Js y consta de 2 endpoints:
@@ -34,7 +34,7 @@ body:
 ### Validaciones de la API
 * **firstName, lastName y address:** Más de 1 caracter, sin espacios a los costados (trim)
 * **ssn:** Tener el formato ###-##-#### (donde cada # es un número y los guiones son obligatorios)
-* Si el front no cumple las validaciones debe deshabilitar el boton 'Guardar'
+* Si el front no cumple las validaciones debe deshabilitar el botón 'Guardar'
 
 ## Condiciones y tips
 * Los colores y formas del wireframe son solo a caracter ilustrativo, podés modificarlo libremente siempre buscando que mantenga la arquitectura general establecida.
@@ -42,6 +42,7 @@ body:
 * Podés importar las librerías externas que quieras.
 * Podés utilizar el framework de estilos que más te guste, o hacer tus estilos propios.
 * No es necesario que sea mobile responsive, pero suma.
+* No es necesario implementar tests unitarios, pero suma.
 * No es necesaria y no se verificará la compatibilidad con otros navegadores que no sean chrome.
 * Podés usar ES6 sin problemas.
 * Podés usar HTML5 sin ningun problema.
