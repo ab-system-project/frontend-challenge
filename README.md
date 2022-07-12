@@ -2,7 +2,7 @@
 ## Requisitos
 * Crear una carpeta que contenga un sitio web escrito en Angular 13 o superior con la siguiente estructura:
 ![alt text](https://github.com/ab-system-project/frontend-challenge/blob/main/design.png "Wireframe")
-* El sitio consta de dos páginas principales, un inicio y una página de administración de usuarios.
+* El sitio consta de dos páginas principales, un inicio y una página de administración de usuarios, alternables desde el top navbar.
 * La página de inicio debe dar una bienvenida a quien ingresa al sitio y no hay diseño estipulado para ello.
 * La página de administración de usuarios es la que se ve en el wireframe de la imagen.
 * La tabla de la derecha debe recibir los datos de la api al ingresar a la página de administración.
